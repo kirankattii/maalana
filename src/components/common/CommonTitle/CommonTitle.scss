@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Flower of Summer Personal Use';
+    src: url('./FlowersofSummerPersonalUse.ttf') format('truetype');
+  }
+  .title-container{
+    margin: 58px 0px;
+    .title {
+      text-align: center;
+      font-family: "Flower of Summer Personal Use", sans-serif;
+      font-size: 70px;
+      color: #fff;
+      margin: 0;
+      font-weight: 400;
+    }
+    
+    .subtitle {
+      text-align: center;
+      font-family: "Flower of Summer Personal Use", sans-serif;
+      font-size: 27px;
+      color: #fff;
+      margin: 0;
+    }
+  }
+ 

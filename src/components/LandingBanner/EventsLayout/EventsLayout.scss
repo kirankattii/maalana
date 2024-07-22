@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'hogfish';
+  src: url('../../../assets/font/Hogfish-DEMO.woff') format('truetype');
+}
+
+.layout {
+  display: flex;
+  height: 100vh;
+  background: #FFF1C1;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.clipped-container {
+  filter: drop-shadow(10px 10px rgba(0, 0, 0, 0.75));
+}
+
+.clipped-element {
+  width: 872px;
+  height: 639px;
+  background: #ffffff;
+  clip-path: polygon(0 0, 100% 0, 100% 72%, 0 45%);
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.clipped-container1 {
+  filter: drop-shadow(10px 10px rgba(0, 0, 0, 0.75));
+}
+
+.clipped-element1 {
+  width: 372px;
+  height: 339px;
+  background: #ffffff;
+  clip-path: polygon(0 0, 100% 0%, 100% 71%, 0 61%);
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.clipped-container2 {
+  filter: drop-shadow(10px 10px rgba(0, 0, 0, 0.75));
+}
+
+.clipped-element2 {
+  width: 372px;
+  height: 339px;
+  background: #ffffff;
+  clip-path: polygon(0 0, 100% 10%, 100% 89%, 0 65%);
+  position: absolute;
+  left: 50px;
+  top: 300px;
+}
+
+.clipped-container-3 {
+  filter: drop-shadow(10px 10px rgba(0, 0, 0, 0.75));
+}
+
+.clipped-element-3 {
+  width: 372px;
+  height: 776px;
+  background: #ffffff;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.clipped-container-3 {
+  filter: drop-shadow(10px 10px rgba(0, 0, 0, 0.75)); 
+}
+
+.clipped-element-4 {
+  width: 1328px;
+  height: 384px;
+  background: #000;
+  clip-path: polygon(0 0, 100% 75%, 100% 100%, 0 23%);
+  position: absolute;
+  left: 50px;
+  top: 370px;
+  transform: rotate(-1deg);
+  overflow: hidden;
+}
+
+.event-text {
+  white-space: nowrap;
+  margin-right: 20px;
+  color: #fff;
+  font-size: 37px;
+  animation: moveLeftToRight 8s linear infinite;
+  font-family: 'hogfish';
+}
+
+.event-text-container{
+  transform: rotate(12deg);
+  position: absolute;
+  top: 218px;
+  display: flex;
+  gap: 190px;
+}
+
+@keyframes moveLeftToRight {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(100%);
+  }
+}
+
+
+.clipped-container-5{
+  filter: drop-shadow(10px 10px rgba(0, 0, 0, 0.75));
+}
+
+.clipped-element-5{
+  width: 1341px;
+  height: 290px;
+  background: #ffffff;
+  clip-path: polygon(0 0%, 100% 85%, 100% 100%, 0 100%);
+  position: absolute;
+  left: 35px;
+  top: -121px;
+  transform: rotate(1deg);
+}

@@ -1,0 +1,30 @@
+.fruit-katli-banner{
+    display: flex;
+    height: 100vh;
+    background: #FFACAC url('https://res.cloudinary.com/dtivafy25/image/upload/v1721116833/img-1_oyqx5s.svg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: background-image 0.5s ease-in-out;
+}
+.image-container{
+    position: relative;
+    width: 431px;
+    height: auto;
+}
+.view-image{
+    width: 430px;
+    position: absolute;
+    top: 23%;
+    cursor: pointer;
+}
+.fruit-image{
+    width: 330px;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+.cloud-image{
+    position: absolute;
+    left: 140%;
+}

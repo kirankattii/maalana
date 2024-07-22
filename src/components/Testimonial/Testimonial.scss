@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'hogfish';
+    src: url('../../assets/font/Hogfish-DEMO.woff') format('truetype');
+}
+
+.testimonial-container {
+    display: flex;
+    height: 100vh;
+    background: #D4C1FF url("https://res.cloudinary.com/dtivafy25/image/upload/v1721116852/test-bg_hluphz.svg") no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.testimonial-image {
+    position: relative;
+    width: 431px;
+    height: auto;
+}
+
+.testimonial-img {
+    position: absolute;
+    left: 121%;
+    top: 10%;
+}
+
+.testimonial-img-1 {
+    position: absolute;
+    top: 24%;
+    left: 10%;
+    width: 407px;
+}
+
+.content-div {
+    position: absolute;
+    top: 29%;
+    left: 27%;
+}
+
+.description {
+    font-family: 'hogfish';
+    line-height: 36px;
+}
+
+.name {
+    position: absolute;
+    top: 106%;
+    left: 85%;
+    font-family: 'hogfish';
+    color: red;
+}
+
+.testimonial-img-2 {
+    width: 326px;
+    position: absolute;
+    left: 303%;
+    top: 16%;
+}
+
+.content-div-1 {
+    position: absolute;
+    top: 19%;
+    left: 313%;
+    width: 65%;
+}
+
+.description-1 {
+    font-family: 'hogfish';
+    font-size: 13px;
+    padding: 0px 10px 0px 10px;
+}
+
+.name-1 {
+    position: absolute;
+    top: 129%;
+    left: 85%;
+    font-family: 'hogfish';
+    color: red;
+}
+
+.testimonial-img-3 {
+    width: 221px;
+    position: absolute;
+    left: 340%;
+    top: 45%;
+}
+
+.content-div-2 {
+    position: absolute;
+    top: 47%;
+    left: 336%;
+    width: 65%;
+}
+
+.description-2 {
+    font-family: "hogfish";
+    font-size: 9px;
+    padding: 4px 42px 0px 57px;
+}
+
+.name-2 {
+    position: absolute;
+    top: 112%;
+    left: 69%;
+    font-family: "hogfish";
+    color: red;
+    font-size: 12px;
+}
+
+.testimonial-img-4 {
+    width: 450px;
+    position: absolute;
+    left: 301%;
+    top: 67%;
+}
+
+.content-div-3 {
+    position: absolute;
+    top: 71%;
+    left: 319%;
+    width: 80%;
+}
+
+.description-3 {
+    font-family: "hogfish";
+    font-size: 19px;
+    padding: 0px 10px 0px 10px;
+    line-height: 35px;
+}
+
+.name-3 {
+    position: absolute;
+    top: 103%;
+    left: 84%;
+    font-family: "hogfish";
+    color: red;
+    font-size: 19px;
+
+}
+
+.testimonial-img-5 {
+    position: absolute;
+    width: 674px;
+    left: 132%;
+    top: 36%;
+}
+
+.content-div-4 {
+    position: absolute;
+    top: 40%;
+    left: 164%;
+    width: 100%;
+}
+
+.description-4 {
+    font-family: "hogfish";
+    font-size: 33px;
+    padding: 0px 10px 0px 10px;
+    line-height: 49px;
+}
+
+.name-4 {
+    position: absolute;
+    top: 99%;
+    left: 100%;
+    font-family: "hogfish";
+    color: red;
+    font-size: 23px;
+}
+
+.testimonial-img-6 {
+    position: absolute;
+    top: 68%;
+    left: 10%;
+    width: 407px;
+}
+
+.content-div-5 {
+    position: absolute;
+    top: 72%;
+    left: 27%;
+}
+
+.description-5 {
+    font-family: 'hogfish';
+    line-height: 36px;
+}
+
+.name-5 {
+    position: absolute;
+    top: 106%;
+    left: 85%;
+    font-family: 'hogfish';
+    color: red;
+}

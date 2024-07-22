@@ -1,0 +1,17 @@
+$primary-color: #6200ea;
+$white: #ffffff;
+
+.admin-header {
+  background-color: $primary-color !important;
+  .title {
+    flex-grow: 1;
+    color: $white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+}
+
+.drawer-container {
+    width: 305px;
+    padding: 10px;
+  }

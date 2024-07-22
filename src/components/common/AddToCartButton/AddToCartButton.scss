@@ -1,0 +1,45 @@
+/* AddToCartButton.scss */
+.add-to-cart-btn-with-cart-icon {
+  position: relative;
+  overflow: hidden;
+  padding: 16px 56px;
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .cart-icon {
+    position: absolute;
+    right: 80px;
+    // opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+    opacity: 1;
+    animation: move-icon 1s forwards; 
+  }
+
+  .add-to-cart-text {
+    transition: opacity 1s ease;
+  }
+    .add-to-cart-text {
+      opacity: 0;
+    }
+}
+
+@keyframes move-icon {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(100px);
+    /* Adjust distance as needed */
+    opacity: 0;
+  }
+}

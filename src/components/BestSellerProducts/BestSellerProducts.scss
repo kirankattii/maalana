@@ -1,0 +1,25 @@
+.best-seller-card {
+    background-color: #ffffff !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 12px !important;
+    padding: 1rem;
+    text-align: center;
+    ;
+}
+
+.best-seller-title{
+    text-align: left !important;
+}
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}

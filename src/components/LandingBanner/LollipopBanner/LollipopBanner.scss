@@ -1,0 +1,34 @@
+.lollipop-cate-container {
+    display: flex;
+    height: 100vh;
+    background: #ACFFFA url('https://res.cloudinary.com/dtivafy25/image/upload/v1721116833/img-1_oyqx5s.svg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.lollipop-cate-image {
+    position: relative;
+    width: 431px;
+    height: auto;
+}
+
+.cloud-cate-img {
+    margin-top: 10px;
+}
+
+.lollipop-cate-img {
+    position: absolute;
+    left: 330%;
+    top: 7%;
+    width: 319px;
+}
+
+.viewbtn-cate-img {
+    position: absolute;
+    left: 315%;
+    top: 65%;
+    width: 433px;
+    cursor: pointer;
+}

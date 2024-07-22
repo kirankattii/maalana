@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <base href="/" />
+  <link rel="icon" href="%PUBLIC_URL%/logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Maalana - Your one-stop e-commerce destination" />
+  <meta name="keywords" content="Maalana, e-commerce, online shopping, products" />
+  <meta name="author" content="Maalana Team" />
+
+  <!-- Google Search Console Verification -->
+  <meta name="google-site-verification" content="your_verification_code" />
+
+  <!-- Open Graph Meta Tags for social media sharing -->
+  <meta property="og:title" content="Maalana - Your one-stop e-commerce destination" />
+  <meta property="og:description" content="Discover a wide range of products at Maalana" />
+  <meta property="og:image" content="%PUBLIC_URL%/logo.svg" />
+  <meta property="og:url" content="https://www.maalana.com" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Maalana - Your one-stop e-commerce destination" />
+  <meta name="twitter:description" content="Discover a wide range of products at Maalana" />
+  <meta name="twitter:image" content="%PUBLIC_URL%/logo.svg" />
+
+  <!-- Schema.org Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Maalana",
+      "url": "https://www.maalana.com",
+      "logo": "%PUBLIC_URL%/logo.svg",
+      "sameAs": [
+        "https://www.facebook.com/your-profile",
+        "https://www.twitter.com/your-profile",
+        "https://www.instagram.com/your-profile"
+      ]
+    }
+    </script>
+
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.svg" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <title>Maalana</title>
+
+  <!-- Include external CSS and JS files -->
+  <link rel="stylesheet" href="%PUBLIC_URL%/styles.css" />
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+  <!-- Accessibility improvements -->
+  <nav aria-label="Main navigation"></nav>
+
+  <!-- Load JavaScript at the end of the body for better performance -->
+  <script src="%PUBLIC_URL%/main.js"></script>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-XXXXXX-X');
+  </script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

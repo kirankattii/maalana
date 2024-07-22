@@ -1,0 +1,145 @@
+.styled-box {
+	position: relative;
+	width: 76%;
+	// margin: 139px 177px 0px;
+	margin: 139px auto;
+	padding: 62px;
+	border: 1px solid #ccc;
+	border-radius: 110px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+
+	.content {
+		font-size: 25px;
+		color: #333;
+	}
+
+	.label {
+		position: absolute;
+		background-color: transparent;
+		color: white;
+		font-size: 20px;
+		font-weight: bold;
+		padding: 5px 10px;
+		border-radius: 20px;
+
+		&.candy {
+			position: absolute;
+			top: -65px;
+			// left: -112px;
+			left: -8%;
+			transform: rotate(-2deg);
+
+			.candy-img1 {
+				width: 65%;
+				animation: float 3s ease-in-out infinite;
+			}
+		}
+
+		&.tasty {
+			top: -30px;
+			// right: -104px;
+			right: -5%;
+			transform: rotate(5deg);
+
+			.tasty-img2 {
+				width: 65%;
+				animation: float 3s ease-in-out infinite;
+			}
+		}
+
+		&.sweet {
+			bottom: -62px;
+			left: 50%;
+			transform: translateX(-50%) rotate(-5deg);
+
+			.sweet-img3 {
+				width: 65%;
+				animation: float 3s ease-in-out infinite;
+			}
+		}
+	}
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@media (max-width: 1000px) {
+	.styled-box {
+		position: relative;
+		width: 90%;
+	}
+}
+
+@media (max-width: 500px) {
+	.styled-box {
+		position: relative;
+		width: 85%;
+		// margin: 139px 177px 0px;
+		margin: 139px auto;
+		padding: 36px;
+		border: 1px solid #ccc;
+		border-radius: 70px;
+		text-align: center;
+		font-family: Arial, sans-serif;
+
+		.content {
+			font-size: 21px;
+			color: #333;
+		}
+
+		.label {
+			position: absolute;
+			background-color: transparent;
+			color: white;
+			font-size: 20px;
+			font-weight: bold;
+			padding: 5px 8px;
+			border-radius: 20px;
+
+			&.candy {
+				top: -40px;
+				// left: -112px;
+				right: 55%;
+				transform: rotate(-2deg);
+
+				.candy-img1 {
+					width: 70%;
+					animation: float 3s ease-in-out infinite;
+				}
+			}
+
+			&.tasty {
+				top: -15;
+				// right: -104px;
+				left: 60%;
+				transform: rotate(5deg);
+
+				.tasty-img2 {
+					width: 75%;
+					animation: float 3s ease-in-out infinite;
+				}
+			}
+
+			&.sweet {
+				bottom: -50px;
+				left: 50%;
+				transform: translateX(-50%) rotate(-5deg);
+
+				.sweet-img3 {
+					width: 70%;
+					animation: float 3s ease-in-out infinite;
+				}
+			}
+		}
+	}
+}

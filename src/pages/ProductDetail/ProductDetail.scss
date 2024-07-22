@@ -1,0 +1,168 @@
+.product-detail {
+    display: flex;
+    gap: 2rem;
+    padding: 103px 247px;
+}
+
+.product-images {
+    flex: 1;
+
+    .product-img-main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-image {
+        width: 100%;
+        max-width: 550px;
+    }
+
+    .thumbnail-images {
+        display: flex;
+        gap: 30px;
+        margin: 28px 70px;
+
+        .thumbnail {
+            width: 50px;
+            height: 50px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 1px solid #ddd;
+        }
+    }
+
+    .additional-info {
+        margin: 40px 62px;
+
+        .nutrition {
+            margin-bottom: 2rem;
+
+            h2 {
+                font-size: 1.2rem;
+                margin-bottom: 0.5rem;
+            }
+
+            p {
+                display: flex;
+                align-items: center;
+                margin-bottom: 0.5rem;
+                width: 66%;
+
+                .key {
+                    flex: 1;
+                    font-weight: bold;
+                    margin-right: 1rem;
+                    text-align: left;
+                }
+
+                .line {
+                    flex: 1;
+                    position: relative;
+                    margin: 0 1rem;
+                    height: 1px; 
+                    width: 100%;
+                    background-color: #000000;
+                }
+
+                .value {
+                    flex: 1;
+                }
+            }
+        }
+    }
+
+}
+
+.product-info {
+    flex: 1;
+
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .weight {
+        font-size: 1rem;
+        color: #666;
+    }
+
+    .description {
+        margin: 1rem 0;
+        font-size: 25px;
+        line-height: 1.5;
+    }
+
+    .rating {
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+
+        .star {
+            font-size: 45px;
+            color: #ddd;
+        }
+
+        .filled {
+            color: #FFD700; // Gold color for filled stars
+        }
+
+        p {
+            margin-left: 10px;
+            font-size: 1rem;
+        }
+    }
+
+    .price {
+        font-size: 30px;
+        color: #000000;
+        margin: 1rem 0;
+
+        span {
+            font-size: 12px;
+            margin: 0px 10px;
+        }
+    }
+
+    .quantity-control {
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+
+        button {
+            background: none;
+            border: 1px solid #000;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+
+        span {
+            margin: 0 1rem;
+            font-size: 1.2rem;
+        }
+    }
+
+    .add-to-cart,
+    .buy-now {
+        width: 100%;
+        padding: 22px;
+        margin: 1rem 0;
+        font-size: 25px;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;    
+    }
+
+    .add-to-cart {
+        background-color: #8BC34A;
+        color: #070202;
+        margin: 33px 0px 0px;
+    }
+
+    .buy-now {
+        background-color: #FFC107;
+        color: #000000;
+    }
+   .ingredients-p{
+    font-size: 20px;
+   }
+}

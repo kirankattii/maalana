@@ -1,0 +1,39 @@
+$primary-color: #6200ea;
+$background-color: #f5f5f5;
+$white: #ffffff;
+$card-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+.dashboard-container {
+  padding: 2rem;
+  background-color: $background-color;
+  min-height: 100vh;
+
+  .dashboard-header {
+    margin-bottom: 2rem;
+    color: $primary-color;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+
+  .dashboard-card {
+    background-color: $white;
+    box-shadow: $card-shadow;
+    border-radius: 12px;
+    padding: 1rem;
+
+    .MuiCardContent-root {
+      &:last-child {
+        padding-bottom: 16px;
+      }
+    }
+
+    .MuiTypography-h6 {
+      color: $primary-color;
+      margin-bottom: 0.5rem;
+    }
+
+    .MuiTypography-h4 {
+      font-weight: bold;
+    }
+  }
+}

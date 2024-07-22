@@ -1,0 +1,74 @@
+.imli-category-banner {
+  display: flex;
+  height: 100vh;
+  background: #FFD9AC url('https://res.cloudinary.com/dtivafy25/image/upload/v1721116833/img-1_oyqx5s.svg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.image-container {
+  position: relative;
+  width: 431px;
+  height: auto;
+}
+
+.top-left-imli {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.loading .top-left-imli {
+  opacity: 0;
+
+}
+
+.loaded .top-left-imli {
+  opacity: 1;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 275px;
+}
+
+.zoom-in {
+  transform: scale(1.2);
+}
+
+.view-more-btn {
+  position: absolute;
+  top: 55%;
+  width: 476px;
+}
+
+
+.view-more-btn {
+  position: absolute;
+  bottom: 20px;
+  left: -50px;
+  width: 476px;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0;
+  transform: translateX(-50px);
+  cursor: pointer;
+}
+
+.image-container.loaded .view-more-btn.delayed {
+  opacity: 1;
+  transform: translateX(50px);
+}
+
+.view-more-btn:hover {
+  transform: scale(1.2);
+}
+
+.cloud-img {
+  position: absolute;
+  left: 129%;
+  top: 2%;
+  max-width: 313%;
+}

@@ -1,0 +1,91 @@
+$primary-color: #6200ea;
+$background-color: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+$white: #ffffff;
+$input-border-color: #e0e0e0;
+$input-focus-border-color: $primary-color;
+$button-hover-bg: darken($primary-color, 10%);
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: $background-color;
+  padding: 1rem;
+
+  .login-form {
+    padding: 3rem;
+    background: rgba($white, 0.9);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+
+    .login-header {
+      margin-bottom: 2rem;
+      color: $primary-color;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+    }
+
+    .login-input {
+      margin-bottom: 1.5rem;
+
+      .MuiOutlinedInput-root {
+        fieldset {
+          border-color: $input-border-color;
+        }
+        &:hover fieldset {
+          border-color: $input-focus-border-color;
+        }
+        &.Mui-focused fieldset {
+          border-color: $input-focus-border-color;
+        }
+      }
+    }
+
+    .forgot-password-link {
+      display: block;
+      margin-bottom: 1.5rem;
+      color: $primary-color;
+      text-decoration: none;
+      transition: color 0.3s;
+      text-align: end;
+      &:hover {
+        text-decoration: underline;
+        color: darken($primary-color, 10%);
+      }
+    }
+
+    .login-button {
+      margin-top: 1.5rem;
+      padding: 0.75rem;
+      font-size: 1rem;
+      background-color: $primary-color;
+      color: $white;
+      font-weight: bold;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 0 4px 10px rgba($primary-color, 0.4);
+      transition: background-color 0.3s, box-shadow 0.3s;
+
+      &:hover {
+        background-color: $button-hover-bg;
+        box-shadow: 0 6px 14px rgba($primary-color, 0.6);
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

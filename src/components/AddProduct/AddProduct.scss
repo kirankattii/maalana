@@ -1,0 +1,92 @@
+.add-product-container {
+  display: flex;
+  justify-content: center;
+  padding: 65px;
+  background-color: #f9f9f9;
+}
+
+.add-product-card {
+  background-color: #fff !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 12px !important;
+  padding: 1rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #6200ea !important;
+  }
+
+  .MuiButton-root {
+    color: #3f51b5;
+    border-color: #3f51b5;
+
+    &:hover {
+      color: #303f9f;
+      border-color: #303f9f;
+    }
+  }
+}
+
+.add-product-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-entry {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.product-entry {
+  margin-bottom: 2rem;
+}
+
+.image-preview {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remove-product {
+  color: #ff4d4d;
+}
+
+.upload-button {
+  margin-top: 10px;
+}
+
+.upload-icon {
+  margin-right: 8px;
+}
+
+.add-product-button {
+  background-color: #6200ea !important;
+}
+
+.add-product-form .MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.add-product-form .MuiButton-root {
+  margin-top: 20px;
+}
