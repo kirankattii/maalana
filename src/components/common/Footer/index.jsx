@@ -114,11 +114,11 @@ const Footer = () => {
 					<h2>CONTACT</h2>
 					<div>
 						<h2>ADDRESS</h2>
-						<p>Bengaluru</p>
+						{/* <p>Bengaluru</p> */}
 					</div>
 					<div>
 						<h2>PHONE NO</h2>
-						<p>+91 69856 98652</p>
+						{/* <p>+91 69856 98652</p> */}
 					</div>
 				</div>
 			</div>
